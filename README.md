@@ -1,5 +1,5 @@
 # the2bee
-A website for an AI consultancy
+A website to demonstrate Bootstrap 5.3.2
 
 This Website began as a Bootstrap 5.3.2 project that was part of a codecademy Bootstrap module.
 Upon completion of this project I decided to continue the build out and dive deeper into Bootstrap.
