@@ -1,0 +1,40 @@
+body {
+    background-color: antiquewhite;
+}
+
+.nav-link:hover {
+    background-color: rgb(61, 122, 61);
+
+}
+
+.dropdown-item {
+    background-color: rgb(61, 122, 61);
+
+}
+
+.custom-carousel-caption {
+    background-color: #343a40;
+    border-radius: 25px;
+    padding: 10px;
+    color: antiquewhite;
+}
+
+@media (max-width: 576px) {
+    .custom-carousel-caption {
+        width: 80%;
+        font-size: 10px;
+        padding: 5px;
+    }
+}
+
+.logo {
+    max-width: 50%;
+}
+
+.break-word {
+    word-wrap: break-word;
+}
+
+.small-text {
+    font-size: 0.8rem;
+}

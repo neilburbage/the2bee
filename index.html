@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>the2bee.com</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar Component -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent flex-column">
+        <div class="d-flex justify-content-center align-items-center">
+            <a class="navbar-brand text-center" href="#"><img src="Assets\Logo\logoedit.jpg" alt="the2bee.com logo"
+                    class="logo">
+            </a>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+            <div class="container-fluid">
+                <i class="bi bi-laptop me-2"></i>
+                <a class="navbar-brand text-warning" href="#"> 2bee</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav flex-column flex-md-row justify-content-between">
+                        <li class="nav-item">
+                            <a class="nav-link active text-light fs-6" aria-current="page" href="#">
+                                Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light fs-6" href="#">About</a>
+                        <li class="nav-item">
+                            <a class="nav-link text-light fs-6" href="#">Our Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light fs-6" href="#">Contact Us</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-light fs-6" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                and more
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item text-light fs-6" href="#">Robot Shop</a></li>
+                                <li><a class="dropdown-item text-light fs-6" href="#">Online Gaming</a></li>
+                                <li><a class="dropdown-item text-light fs-6" href="#">Superhub</a></li>
+                                <li><a class="dropdown-item text-light fs-6" href="#">Encode Club</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid bg-transparent"
+        style="background:url(https://content.codecademy.com/courses/learn-bootstrap-4/adhoc/jumbotron.png) no-repeat; background-size: cover;">
+        <div class="bg-secondary text-white text-center my-5 rounded border border-5">
+            <h1 class="fw-bold text-primary-emphasis display-4">Let AI do the work</h1>
+            <p>the2bee is an on-demand AI consultancy service for your company growth</p>
+        </div>
+    </div>
+
+    <!-- Meet the Team Section -->
+    <div class="row bg-dark rounded-top">
+        <div class="row">
+            <div class="col">
+                <h2 class="fw-bold text-white text-center display-4 my-5">Meet the Team</h2>
+            </div>
+        </div>
+    </div>
+    <!-- Team Pictures Carousel -->
+    <div class="row bg-dark rounded-bottom pb-5">
+        <div class="row">
+            <div class="col">
+                <!-- Carousel Component -->
+                <div id="carouselExampleControls" class="carousel slide w-50 mx-auto" data-bs-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="active"></li>
+                        <li data-bs-target="#carouselExampleControls" data-bs-slide-to="1"></li>
+                        <li data-bs-target="#carouselExampleControls" data-bs-slide-to="2"></li>
+                        <li data-bs-target="#carouselExampleControls" data-bs-slide-to="3"></li>
+                        <li data-bs-target="#carouselExampleControls" data-bs-slide-to="4"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="d-flex justify-content-center align-items-center mb-5">
+                                <img src="Assets\Team\neilBurbage2.jpg" class=" d-block w-50 h-50" alt="Neil B.">
+                                <div class="carousel-caption custom-carousel-caption py-0">
+                                    <p class="fw-bold text-center mb-2">CEO: <span class="mt-10 pt-10 fw-normal">Neil
+                                        </span><span class="fw-light">B.</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-flex justify-content-center align-items-center mb-5">
+                                <img src="Assets\Team\nataliHordiiuk.jpg" class="d-block w-50" alt="Natali H.">
+                                <div class="carousel-caption custom-carousel-caption py-0">
+                                    <p class="fw-bold text-center mb-2">CFO: <span class="fw-normal">Natali
+                                        </span><span class="fw-light">H.</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-flex justify-content-center align-items-center mb-5">
+                                <img src="Assets\Team\yvesTalom.jpg" class="d-block w-50 h-50" alt="Yves T.">
+                                <div class="carousel-caption custom-carousel-caption py-0">
+                                    <p class="fw-bold text-center mb-2">COO: <span class="fw-normal">Yves
+                                        </span><span class="fw-light">T.</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-flex justify-content-center align-items-center mb-5">
+                                <img src="Assets\Team\oliviaHibbins.jpg" class="d-block w-50 h-50" alt="Olivia H.">
+                                <div class="carousel-caption custom-carousel-caption py-0">
+                                    <p class="fw-bold text-center mb-2">CTO: <span class="fw-normal">Olivia
+                                        </span><span class="fw-light">H.</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-flex justify-content-center align-items-center mb-5">
+                                <img src="Assets\Team\sauhardChaurasiya.jpg" class="d-block w-50 h-50" alt="Sauhard C.">
+                                <div class="carousel-caption custom-carousel-caption py-0">
+                                    <p class="fw-bold text-center mb-2">CTO: <span class="fw-normal">Sauhard
+                                        </span><span class="fw-light">C.</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a class="carousel-control-prev d-none d-sm-block" href="#carouselExampleControls" role="button"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next d-none d-sm-block" href="#carouselExampleControls" role="button"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <!-- Container -->
+    <div class="container">
+        <!-- Quote Section -->
+        <div class="row">
+
+            <h2 class="text-success-emphasis fst-italic fw-light"> "Thanks to the2bee.com we now have amazing
+                results every single day. Our customers are happy and engagement has drastically increased. Highly
+                recommend!"<div class="col my-5">
+                    <div class="pb-2">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+            </h2>
+            <p class="text-primary fw-bold fst-italic text-center break-word">-Stephane Joguet, <span
+                    class="font-weight-normal my-3 small-text">youtube.com/@ste4funk1</span></p>
+        </div>
+    </div>
+    </div>
+    <hr>
+
+    <!-- Why Adhoc? Text -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2 class="fw-bold text-danger text-center display-6 my-3 break-word">Why the2bee.com? <i
+                        class="bi bi-rocket-takeoff"></i></h2>
+            </div>
+        </div>
+        <div>
+
+            <!-- Image Reasons Section -->
+            <div class="row justify-content-center mt-5 mb-5">
+                <div class="col-8 col-md-4">
+                    <!-- First card goes here -->
+                    <div class="border-0">
+                        <img src="https://content.codecademy.com/courses/learn-bootstrap-4/adhoc/experienced.png"
+                            class="card-img-top" alt="Experienced icon">
+                        <div class="card-body">
+                            <p class="fw-semibold text-info-emphasis card-text text-center mt-4 mb-4">Over 9000 happy
+                                clients, and we
+                                learn something
+                                new from each one.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-8 col-md-4">
+                    <!-- Second card goes here -->
+                    <div class="border-0">
+                        <img src="https://content.codecademy.com/courses/learn-bootstrap-4/adhoc/fun.png"
+                            class="card-img-top" alt="Fun icon">
+                        <div class="card-body">
+                            <p class="fw-semibold text-info-emphasis card-text text-center mt-4 mb-4">Building AGI?
+                                Fun?
+                                Yea,
+                                somehow we'll
+                                make it
+                                happen.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-8 col-md-4">
+                    <!-- Third card goes here -->
+                    <div class="border-0">
+                        <img src="https://content.codecademy.com/courses/learn-bootstrap-4/adhoc/smart.png"
+                            class="card-img-top" alt="Smart icon">
+                        <div class="card-body">
+                            <p class="fw-semibold text-info-emphasis card-text text-center mt-4 mb-4">Innovative
+                                solutions
+                                to the
+                                trickiest of
+                                everyday tasks.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section id="robots">
+                <div class="container-md">
+                    <div class="text-center">
+                        <h2><i class="bi bi-robot"></i> Robot Shop</h2>
+                        <p class="fw-bold text-muted"></i>Introducing the Robots we have
+                            imagined
+                            and designed</p>
+                    </div>
+
+                    <!-- Accordion Take 2 -->
+                    <div class="col-lg-6">
+                        <div class="accordion" id="catalogue">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading-1">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#robot-1" aria-expanded="true" aria-controls="robot-1">
+                                        <i class="bi bi-stars"></i> Robot 1 - Robot Dog
+                                    </button>
+                                </h2>
+                                <div id="robot-1" class="accordion-collapse collapse" aria-labelledby="heading-1"
+                                    data-bs-parent="#catalogue">
+                                    <div class="accordion-body">
+                                        <strong>RD1</strong>
+                                        <img src="Assets\Accordion\iceDog.jpg" class="d-block w-50" alt="Ice Dog image">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading-2">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#robot-2" aria-expanded="true" aria-controls="robot-2">
+                                        <i class="bi bi-stars"></i> Robot 2 - Blue and Black Robot
+                                    </button>
+                                </h2>
+                                <div id="robot-2" class="accordion-collapse collapse" aria-labelledby="heading-2"
+                                    data-bs-parent="#catalogue">
+                                    <div class="accordion-body">
+                                        <strong>BBR</strong>
+                                        <img src="Assets\Accordion\blueBlackRobotToyDarshniPriya.jpg"
+                                            class="d-block w-50" alt="Blue and Black Robot image">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading-3">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#robot-3" aria-expanded="true" aria-controls="robot-3">
+                                        <i class="bi bi-stars"></i> Robot 3 - Robo-kid
+                                    </button>
+                                </h2>
+                                <div id="robot-3" class="accordion-collapse collapse" aria-labelledby="heading-3"
+                                    data-bs-parent="#catalogue">
+                                    <div class="accordion-body">
+                                        <strong>RK1</strong>
+                                        <img src="Assets\Accordion\robotKidedit2.jpg" class="d-block w-50"
+                                            alt="Robot Kid image">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="fw-bold text-center py-3 text-danger fw-bold">2023 the2bee.com &copy;
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
